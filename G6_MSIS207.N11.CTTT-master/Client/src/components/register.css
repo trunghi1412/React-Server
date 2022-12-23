@@ -1,0 +1,114 @@
+/* 
+
+* {
+    margin-right: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+
+
+.page {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    
+    
+}
+
+.cover {
+    background-color: white;
+    
+    width: 30%;
+    height: 50%;
+    position: relative;
+    border-radius: 8px  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.log-name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.login-alt {
+    width: 80%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-alt div {
+    width: 45%;
+    height: 90%;
+    border-radius: 3px;
+    background-color: rgb(73, 92, 18);
+    background-position: center;
+    background-size: contain;
+   
+    cursor: pointer;
+}
+
+.ip-reg {
+    height: 64px;
+    width: 80%;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    border-bottom: 4px solid #ccc;
+    outline: none;
+    background-color: white;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+
+
+.login-name-reg {
+    width: 55%;
+    height: 70px;
+    background: linear-gradient(135deg, red 0%, blue 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+
+.login-name:hover {
+    background: linear-gradient(45deg, rgb(247, 85, 85) 0%, rgb(184, 244, 63) 100%);
+    color: white;
+}
+
+.text {
+    position: relative;
+    bottom: -8px;
+    font-size: 15px;
+
+}
+
+
+
+.sign-up1 {
+    text-decoration: underline;
+    color: rgb(35, 148, 110);
+    margin-left: 10px;  
+    
+}
+
+.no-account1 {
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 20px;
+} */

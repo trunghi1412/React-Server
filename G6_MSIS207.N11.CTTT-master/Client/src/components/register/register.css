@@ -1,0 +1,16 @@
+.cover-1 {
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    margin-left: 570px;
+    position: relative;
+    /* border-radius: 1em; */
+    border-radius: 8px;
+    box-shadow: 0 0.188em 1.550em rgb(21, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 82px;
+    padding: 35px 0;
+} 

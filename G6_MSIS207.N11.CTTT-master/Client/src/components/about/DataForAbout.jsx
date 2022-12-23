@@ -1,0 +1,38 @@
+export const InforAbout = [
+    {
+        id: "MSSV: " + 19521763,
+        name: "Nguyễn Thanh Lộc",
+        fb: "--- Thanh Lộc",
+        ins: "--- Thanh Lộc",
+        phone: "--- 0909123456",
+        img: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-1/298755511_3397948613864174_7705629748566994208_n.jpg?stp=dst-jpg_p240x240&_nc_cat=104&ccb=1-7&_nc_sid=7206a8&_nc_ohc=TNig4xKq4kEAX-dDRWL&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfC-RImhs-ZoN1OUTKCg9UaYaw6IWSpivYmdo6jzrssKLA&oe=6393FD0D",
+        bg: "d6ccc2",
+    },
+    {
+        id: "MSSV: " + 19521511,
+        name: "Phạm Trung Hiếu",
+        fb: "--- Phạm Trung Hiếu",
+        ins: "--- Phạm Trung Hiếu",
+        phone: "--- 0909123456",
+        img: "https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-1/275813256_1413072099123485_8944794104066575066_n.jpg?stp=dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_ohc=DxSQB_LyONYAX_Zzz-O&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfD-XdJ747erasYv9Yy5rPey9Meha7pdFQ7YAMMWj_4MRg&oe=6395DD7B",
+        bg: "f5ebe0",
+    },
+    {
+        id: "MSSV: " + 19521382,
+        name: "Tăng Trí Đức",
+        fb: "--- Tăng Camarade",
+        ins: "--- Tăng Camarade",
+        phone: "--- 0909123456",
+        img: "https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.6435-9/81375700_2541570046164871_5048231609698877440_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HUrIDRLbD6AAX8yIZ4s&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfCBmfPFEvZtsLgYtiARk9igkWgcdOSc5TyB8_AzIca80g&oe=63B781A3",
+        bg: "e3d5ca",
+    },
+    {
+        id: "MSSV: " + 19521602,
+        name: "Đậu Đình Huy",
+        fb: "---  Đình Huy ",
+        ins: "---  Đình Huy ",
+        phone: "---  0909123456 ",
+        img: "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-1/299202460_2028998990794748_2885243375628285658_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=jLZcA8KTMpkAX84fX4B&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfDuaBjArK8hh7mkXYKeX2VEQ-Ek7861lN5lFBPk5XWHkg&oe=63953995",
+        bg: "d5bdaf",
+    },
+  ];

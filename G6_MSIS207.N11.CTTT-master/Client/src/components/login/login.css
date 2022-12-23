@@ -1,0 +1,116 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+
+
+ .cover {
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    margin-left: 570px;
+    position: relative;
+    /* border-radius: 1em; */
+    border-radius: 8px;
+    box-shadow: 0 0.188em 1.550em rgb(21, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+    /* padding: 250px 0; */
+    padding: 67px 0;
+} 
+.log-name{
+    margin-left: -18px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.login-alt {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-alt div {
+    width: 47.5%;
+    height: 90%;
+    border-radius: 3px;
+    background-color: rgb(73, 92, 18);
+    background-position: center;
+    background-size: contain;  
+    cursor: pointer;
+}
+
+input {
+    height: 64px;
+    width: 80%;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    border-bottom: 4px solid #ccc;
+    outline: none;
+    background-color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.login-name-reg {
+    width: 55%;
+    /* height: 3em; */
+    height: 70px;
+    background: linear-gradient(135deg, red 0%, blue 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+ .login-name-reg:hover {
+    color: white;
+    background: linear-gradient(45deg, rgba(248,85,85,0) 2%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+ }
+
+
+.text {
+    position: relative;
+    bottom: -2em;
+    font-size: 15px;
+
+}
+
+
+
+.sign-up2 {
+    text-decoration: underline;
+    color: rgb(35, 148, 110);  
+    
+}
+
+.no-account1 {
+    font-size: 17px;
+    margin-left: 63px;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.no-account2 {
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-style: normal;
+}

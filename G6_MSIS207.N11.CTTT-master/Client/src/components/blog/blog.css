@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+.container {
+    height: fit-content;
+    margin-top: 54px;
+}
+
+.blog-avt {
+    width: 1520px;
+    height: 600px;
+}
+
+.blog-tit {
+    font-size: 35px;
+    font-family: Rubik Bubbles;
+    margin-top: 40px;    
+    background-color: white;
+    
+}
+
+.img1-news {
+    height: 500px;
+    width: 700px;
+}
+.img2-news {
+    width: 840px; 
+    height: 520px;
+}
+.img3-news {
+    width: 680px; 
+    height: 450px;
+}
+.img4-news {
+    width: 680px; 
+    height: 520px;
+}
+.img5-news {
+    width: 680px; 
+    height: 520px;
+}
+
+.web-news {
+    margin-left: 80px;
+    
+}
+
+.blog-news {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-tit {
+    font-size: 20px;
+    font-weight: bolder;
+    color: orange;
+    
+}
+
+.news-desc {
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.post-date {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
