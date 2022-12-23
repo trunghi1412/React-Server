@@ -10,6 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
+ 
   "mongodb+srv://Hieu1412:Hieu1412@figure-web.gb0coeu.mongodb.net/test"
 );
 
@@ -28,13 +29,34 @@ app.post("/api/addproduct", async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 });
+
+//Xử lý add to cart và làm xuất hiện giỏ hàng
 app.get("/api/getproduct", async (req, res) => {
-  try {
-    const data = await ProductModel.find();
-    res.json(data);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+  ProductModel.find()
+    .select("_id name quantity price image")
+    // exec query mongo
+    .exec()
+    .then((docs) => {
+      const response = {
+        count: docs.length,
+        products: docs.map((doc) => {
+          return {
+            // Gọi để chạy carts
+            id: doc.id,
+            name: doc.name,
+            quantity: doc.quantity,
+            price: doc.price,
+            image: doc.image,
+          };
+        }),
+      };
+      res.status(200).json(response);
+    })
+    .catch((err) => {
+      res.status(500).json({
+        error: err,
+      });
+    });
 });
 
 
@@ -47,7 +69,7 @@ app.post("/api/register", async (req, res) => {
       name: req.body.name,
       email: req.body.email,
       password: newPassword,
-      roleID: 'user'
+      roleID: "user",
     });
     user.save(function (err, cat) {
       if (err) {
@@ -73,15 +95,16 @@ app.post("/api/login", async (req, res) => {
   const check = await UserModel.findOne({
     name: req.body.name,
   });
-  console.log (check)
+  console.log(check);
 
   // let result = true;
   let result = await bcrypt.compare(password, check.password);
   console.log("object ", check);
-  console.log('password',password )
+  console.log("password", password);
   bcrypt.compare(password, check.password, function (err, result) {
     // result == true
     if (result) {
+      /* Sending a response to the client. */
       res.json({ status: "ok", message: "Log in Succesfull !" });
       console.log("true");
     } else {
